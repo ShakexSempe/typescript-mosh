@@ -1,6 +1,5 @@
-console.log('Mosh typescript');
-
+console.log('Typescript');
 let age: number = 31;
 if (age < 50) 
-    age += 10;
+    age += 20;
     console.log(age);
