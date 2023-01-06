@@ -1,7 +1,9 @@
 "use strict";
-console.log('Typescript');
-let age = 31;
-if (age < 50)
-    age += 20;
-console.log(age);
+let id = 5;
+let age;
+let company = "Box Shadow";
+let isPublished = true;
+let x = "hello";
+let numberArray = [1, 2.3, 4, 5];
+let anyArray = [1, true, 'hello'];
 //# sourceMappingURL=index.js.map
