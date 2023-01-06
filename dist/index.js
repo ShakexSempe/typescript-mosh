@@ -13,4 +13,7 @@ skillsArray = [
     [2, 'css 3', true],
     [3, 'javascript', true]
 ];
+let language;
+language = 'css';
+language = 3;
 //# sourceMappingURL=index.js.map

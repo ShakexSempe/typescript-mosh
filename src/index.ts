@@ -17,3 +17,9 @@ skillsArray = [
     [3, 'javascript', true]
 ]
 
+// UNIONS - ENABLE VARIABLES TO HOLD MORE THAN ONE TYPE
+let language : string | number
+language = 'css'
+language = 3
+
+
