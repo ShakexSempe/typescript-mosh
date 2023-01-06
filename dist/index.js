@@ -1,21 +1,26 @@
 "use strict";
+// BASIC TYPES 
 let id = 5;
 let age;
 let company = "Box Shadow";
 let isPublished = true;
 let x = "hello";
-let numberArray = [1, 2.3, 4, 5];
+let numberArray = [1, 2.3, 4, 5]; /* ARRAY CONTAINING ONLY NUMBERS*/
 let anyArray = [1, true, 'hello'];
+// TUPLE - SPECIFY TYPES WITHIN ARRAYS
 let person = [1, 'brad', true];
+// TUPLE ARRAY (ARRAY OF TUPLES)
 let skillsArray;
 skillsArray = [
     [1, 'html 5', true],
     [2, 'css 3', true],
     [3, 'javascript', true]
 ];
+// UNIONS - ENABLE VARIABLES TO HOLD MORE THAN ONE TYPE
 let language;
 language = 'css';
 language = 3;
+// ENUM - ENUMERATED TYPE
 var Direction1;
 (function (Direction1) {
     Direction1[Direction1["Up"] = 2] = "Up";
