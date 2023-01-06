@@ -22,4 +22,19 @@ let language : string | number
 language = 'css'
 language = 3
 
+// ENUM - ENUMERATED TYPE
+enum Direction1 {
+    Up = 2 ,
+    Down, 
+    Right, 
+    Left
+}
+console.log(Direction1.Down);
 
+enum Direction2 {
+    Up = "Up" ,
+    Down = "Down", 
+    Right = "Right", 
+    Left = "Left"
+}
+console.log(Direction2.Down);
