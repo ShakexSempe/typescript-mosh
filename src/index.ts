@@ -50,3 +50,11 @@ const user: User = {
     name: 'Tumi',
     developer: true
 }
+
+// TYPE ASSERTION
+let cid:any = 1
+// let customerID = <number>cid
+let customerID = cid as number 
+
+cid = 'a';
+customerID = 3

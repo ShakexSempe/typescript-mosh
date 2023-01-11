@@ -42,4 +42,10 @@ const user = {
     name: 'Tumi',
     developer: true
 };
+// TYPE ASSERTION
+let cid = 1;
+// let customerID = <number>cid
+let customerID = cid;
+cid = 'a';
+customerID = 3;
 //# sourceMappingURL=index.js.map
