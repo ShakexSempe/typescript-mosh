@@ -38,3 +38,15 @@ enum Direction2 {
     Left = "Left"
 }
 console.log(Direction2.Down);
+
+// OBJECTS 
+type User = {
+    id: number, 
+    name: string,
+    developer: boolean
+}
+const user: User = {
+    id: 1,
+    name: 'Tumi',
+    developer: true
+}

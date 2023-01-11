@@ -37,4 +37,9 @@ var Direction2;
     Direction2["Left"] = "Left";
 })(Direction2 || (Direction2 = {}));
 console.log(Direction2.Down);
+const user = {
+    id: 1,
+    name: 'Tumi',
+    developer: true
+};
 //# sourceMappingURL=index.js.map
