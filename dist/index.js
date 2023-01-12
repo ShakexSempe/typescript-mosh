@@ -49,8 +49,14 @@ let customerID = cid;
 cid = 'a';
 customerID = 3;
 // FUNCTIONS
+// FUNCTION W RETURN VALUE
 function addNum(x, y) {
     return x + y;
 }
 console.log(addNum(1, 3));
+// VOID - FUNCTION W/OUT RETURN VALUE
+function log(message) {
+    console.log(message);
+}
+console.log(log(3));
 //# sourceMappingURL=index.js.map

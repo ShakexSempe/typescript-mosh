@@ -60,7 +60,14 @@ cid = 'a';
 customerID = 3
 
 // FUNCTIONS
+// FUNCTION W RETURN VALUE
 function addNum(x: number, y: number): number {
     return x + y
 }
 console.log(addNum(1, 3));
+
+// VOID - FUNCTION W/OUT RETURN VALUE
+function log(message: string | number): void {
+    console.log(message)
+}
+console.log(log(3))
