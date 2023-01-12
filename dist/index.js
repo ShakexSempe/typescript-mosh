@@ -59,4 +59,8 @@ function log(message) {
     console.log(message);
 }
 console.log(log(3));
+const user1 = {
+    id: 1,
+    name: 'Tumi'
+};
 //# sourceMappingURL=index.js.map

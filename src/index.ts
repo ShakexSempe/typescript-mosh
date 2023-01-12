@@ -71,3 +71,14 @@ function log(message: string | number): void {
     console.log(message)
 }
 console.log(log(3))
+
+// INTERFACES - CUSTOM TYPE/SPECIFIC ORDER TO OBJECT/FUNCTION
+interface UserInterface {
+    id: number
+    name: string
+}
+
+const user1: UserInterface = {
+    id: 1, 
+    name: 'Tumi'
+}
