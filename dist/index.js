@@ -48,4 +48,9 @@ let cid = 1;
 let customerID = cid;
 cid = 'a';
 customerID = 3;
+// FUNCTIONS
+function addNum(x, y) {
+    return x + y;
+}
+console.log(addNum(1, 3));
 //# sourceMappingURL=index.js.map

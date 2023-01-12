@@ -58,3 +58,9 @@ let customerID = cid as number
 
 cid = 'a';
 customerID = 3
+
+// FUNCTIONS
+function addNum(x: number, y: number): number {
+    return x + y
+}
+console.log(addNum(1, 3));
