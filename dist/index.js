@@ -61,6 +61,9 @@ function log(message) {
 console.log(log(3));
 const user1 = {
     id: 1,
-    name: 'Tumi'
+    name: 'Tumi Sempe'
 };
+const add = (x, y) => x + y;
+const subtract = (x, y) => x - y;
+// CLASSES 
 //# sourceMappingURL=index.js.map

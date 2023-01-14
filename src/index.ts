@@ -80,5 +80,14 @@ interface UserInterface {
 
 const user1: UserInterface = {
     id: 1, 
-    name: 'Tumi'
+    name: 'Tumi Sempe'
 }
+// INTERFACE WITH A FUNCTION
+interface MathFunction {
+    (x: number, y: number) : number 
+}
+
+const add: MathFunction = (x: number, y: number): number => x + y
+const subtract: MathFunction = (x: number, y: number): number => x - y
+
+// CLASSES 
