@@ -28,7 +28,7 @@ var Direction1;
     Direction1[Direction1["Right"] = 4] = "Right";
     Direction1[Direction1["Left"] = 5] = "Left";
 })(Direction1 || (Direction1 = {}));
-console.log(Direction1.Down);
+// console.log(Direction1.Down);
 var Direction2;
 (function (Direction2) {
     Direction2["Up"] = "Up";
@@ -36,7 +36,6 @@ var Direction2;
     Direction2["Right"] = "Right";
     Direction2["Left"] = "Left";
 })(Direction2 || (Direction2 = {}));
-console.log(Direction2.Down);
 const user = {
     id: 1,
     name: 'Tumi',
@@ -53,12 +52,11 @@ customerID = 3;
 function addNum(x, y) {
     return x + y;
 }
-console.log(addNum(1, 3));
+// console.log(addNum(1, 3));
 // VOID - FUNCTION W/OUT RETURN VALUE
 function log(message) {
     console.log(message);
 }
-console.log(log(3));
 const user1 = {
     id: 6,
     name: 'Tumi Sempe'
@@ -66,4 +64,15 @@ const user1 = {
 const add = (x, y) => x + y;
 const subtract = (x, y) => x - y;
 // CLASSES 
+class Person {
+    // CONSTRUCTOR METHOD CALLED WHEN NEW PERSON CLASS INSTANTIATED
+    constructor(id, name) {
+        // ASSIGN PASSED IN PARAMS TO THE CLASS PROPERTIES
+        this.id = id;
+        this.name = name;
+    }
+}
+const boitumelo = new Person(1, 'Tumi');
+const steve = new Person(2, 'Shakes');
+console.log(boitumelo, steve);
 //# sourceMappingURL=index.js.map

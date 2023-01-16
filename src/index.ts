@@ -29,7 +29,7 @@ enum Direction1 {
     Right, 
     Left
 }
-console.log(Direction1.Down);
+// console.log(Direction1.Down);
 
 enum Direction2 {
     Up = "Up" ,
@@ -37,7 +37,7 @@ enum Direction2 {
     Right = "Right", 
     Left = "Left"
 }
-console.log(Direction2.Down);
+// console.log(Direction2.Down);
 
 // OBJECTS 
 type User = {
@@ -64,13 +64,13 @@ customerID = 3
 function addNum(x: number, y: number): number {
     return x + y
 }
-console.log(addNum(1, 3));
+// console.log(addNum(1, 3));
 
 // VOID - FUNCTION W/OUT RETURN VALUE
 function log(message: string | number): void {
     console.log(message)
 }
-console.log(log(3))
+// console.log(log(3))
 
 // INTERFACES - CUSTOM TYPE/SPECIFIC ORDER TO OBJECT/FUNCTION
 interface UserInterface {
@@ -92,3 +92,17 @@ const add: MathFunction = (x: number, y: number): number => x + y
 const subtract: MathFunction = (x: number, y: number): number => x - y
 
 // CLASSES 
+class Person {
+    id: number 
+    name: string
+    // CONSTRUCTOR METHOD CALLED WHEN NEW PERSON CLASS INSTANTIATED
+    constructor(id: number, name: string) {
+        // ASSIGN PASSED IN PARAMS TO THE CLASS PROPERTIES
+        this.id = id
+        this.name = name
+    }
+}
+
+const boitumelo = new Person(1, 'Tumi');
+const steve = new Person(2, 'Shakes');
+console.log(boitumelo, steve)
