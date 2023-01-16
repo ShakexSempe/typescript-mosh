@@ -74,14 +74,15 @@ console.log(log(3))
 
 // INTERFACES - CUSTOM TYPE/SPECIFIC ORDER TO OBJECT/FUNCTION
 interface UserInterface {
-    id: number
+    readonly id: number /* cannot be reassigned*/
     name: string
 }
 
 const user1: UserInterface = {
-    id: 1, 
+    id: 6, 
     name: 'Tumi Sempe'
 }
+
 // INTERFACE WITH A FUNCTION
 interface MathFunction {
     (x: number, y: number) : number 
