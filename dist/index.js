@@ -39,7 +39,7 @@ var Direction2;
 const user = {
     id: 1,
     name: 'Tumi',
-    developer: true
+    age: 31
 };
 // TYPE ASSERTION
 let cid = 1;

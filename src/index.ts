@@ -43,12 +43,12 @@ enum Direction2 {
 type User = {
     id: number, 
     name: string,
-    developer: boolean
+    age: number
 }
 const user: User = {
     id: 1,
     name: 'Tumi',
-    developer: true
+    age: 31
 }
 
 // TYPE ASSERTION
@@ -76,6 +76,7 @@ function log(message: string | number): void {
 interface UserInterface {
     readonly id: number /* cannot be reassigned*/
     name: string
+    age?: number
 }
 
 const user1: UserInterface = {
@@ -91,8 +92,15 @@ interface MathFunction {
 const add: MathFunction = (x: number, y: number): number => x + y
 const subtract: MathFunction = (x: number, y: number): number => x - y
 
+// IMPLEMENT INTERFACE TO CLASS
+interface PersonInterface {
+    id: number 
+    name: string
+    register(): string 
+}
+
 // CLASSES 
-class Person {
+class Person implements PersonInterface {
     id: number 
     name: string
     // CONSTRUCTOR METHOD CALLED WHEN NEW PERSON CLASS INSTANTIATED
