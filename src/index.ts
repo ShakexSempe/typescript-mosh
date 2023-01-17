@@ -101,8 +101,12 @@ class Person {
         this.id = id
         this.name = name
     }
+
+    register() {
+        return `${this.name} is now registered`
+    }
 }
 
 const boitumelo = new Person(1, 'Tumi');
 const steve = new Person(2, 'Shakes');
-console.log(boitumelo, steve)
+console.log(boitumelo.register());
